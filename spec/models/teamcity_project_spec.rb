@@ -11,13 +11,13 @@ describe TeamcityProject do
     end
   end
 
-  describe "status parsers" do
+  describe "status parsers" do        
     it "should handle bad xml" do
       @project.status_parser('asdfa').should_not be_nil
       @project.building_parser('asdfas').should_not be_nil
     end
     
-    it "should be for Hudson" do
+    it "should be for Teamcity" do
       @project.status_parser('xml').should be_a(TeamcityStatusParser)
       @project.building_parser('xml').should be_a(TeamcityStatusParser)
     end

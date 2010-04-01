@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/">
+  <title>Builds of Some TeamCity Project</title>
+  <link rel="alternate" href="http://tc0.example.com/viewType.html?buildTypeId=bt35"/>
+  <subtitle>Builds of [Some TeamCity Project] build configuration(s) of TeamCity server at http://tc0.example.com. (no more then 100 items, only for items since Mar 27, 2010)</subtitle>
+  <updated>2010-04-01T16:45:05Z</updated>
+  <dc:creator>TeamCity server</dc:creator>
+  <dc:date>2010-04-01T16:45:05Z</dc:date>
+  <entry>
+    <title>Build Some TeamCity Project #32 has failed</title>
+    <link rel="alternate" href="http://tc0.example.com/viewLog.html?buildId=832&amp;buildTypeId=bt35"/>
+    <author>
+      <name>Failed Build</name>
+    </author>
+    <updated>2010-04-01T00:23:00Z</updated>
+    <published>2010-04-01T00:23:00Z</published>
+    <summary type="html">Status: &lt;strong&gt;Failure&lt;/strong&gt;&lt;br/&gt;&#13;
+Finished on: &lt;strong&gt;Mar 31, 2010 5:23:00 PM&lt;/strong&gt;&lt;br/&gt;&#13;
+Changes in the build: &#13;
+&lt;a href="http://tc0.example.com/viewLog.html?tab=buildChangesDiv&amp;buildId=832&amp;buildTypeId=bt35"&gt;4&lt;/a&gt;&#13;
+by &#13;
+amarzilli , &#13;
+&#13;
+bcrawford &#13;
+&lt;br/&gt;&#13;
+Agent: &lt;strong&gt;Windows Continuous Integration Agent &lt;/strong&gt;&lt;br/&gt;&#13;
+&#13;
+&lt;a href="http://tc0.example.com/viewLog.html?tab=buildLog&amp;buildId=832&amp;buildTypeId=bt35"&gt;Build log&lt;/a&gt;</summary>
+    <dc:creator>Failed Build</dc:creator>
+    <dc:date>2010-04-01T00:23:00Z</dc:date>
+  </entry>
+  <entry>
+    <title>Build Some TeamCity Project #31 has failed</title>
+    <link rel="alternate" href="http://tc0.example.com/viewLog.html?buildId=765&amp;buildTypeId=bt35"/>
+    <author>
+      <name>Failed Build</name>
+    </author>
+    <updated>2010-03-30T22:40:02Z</updated>
+    <published>2010-03-30T22:40:02Z</published>
+    <summary type="html">Status: &lt;strong&gt;Failure&lt;/strong&gt;&lt;br/&gt;&#13;
+Finished on: &lt;strong&gt;Mar 30, 2010 3:40:02 PM&lt;/strong&gt;&lt;br/&gt;&#13;
+Changes in the build: none&lt;br/&gt;&#13;
+Agent: &lt;strong&gt;Windows Continuous Integration Agent &lt;/strong&gt;&lt;br/&gt;&#13;
+&#13;
+&lt;a href="http://tc0.example.com/viewLog.html?tab=buildLog&amp;buildId=765&amp;buildTypeId=bt35"&gt;Build log&lt;/a&gt;</summary>
+    <dc:creator>Failed Build</dc:creator>
+    <dc:date>2010-03-30T22:40:02Z</dc:date>
+  </entry>
+</feed>
