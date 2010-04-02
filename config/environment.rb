@@ -56,6 +56,7 @@ Rails::Initializer.run do |config|
 
   # Make Active Record use UTC-base instead of local time
   # config.active_record.default_timezone = :utc
+  config.after_initialize { Bundler.require :default, Rails.env.downcase.to_sym }
 end
 
 POST_LOAD_BLOCKS.each { |proc| proc.call }

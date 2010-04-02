@@ -14,7 +14,12 @@ class TeamcityStatusParser < StatusParser
         status_parser.url = latest_build.at('link[rel=alternate]')['href']
         pub_date = Time.parse(latest_build.at('published').inner_text)
         status_parser.published_at = (pub_date == Time.at(0) ? Clock.now : pub_date).localtime
-      rescue
+      rescue Exception => e
+        Rails.logger.error("Error parsing Teamcity build status: #{e.class}")
+        Rails.logger.error(e.message)
+        e.backtrace.each do |line|
+          Rails.logger.error(line)
+        end
       end
       status_parser
     end
